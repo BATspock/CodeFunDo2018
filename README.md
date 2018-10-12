@@ -1,6 +1,6 @@
 # CodeFunDo++ 2018 - Team *Paranormal Penguins*
 
-## Floodlights - Minimizing the impact of floods
+## 'Floodlights' - Minimizing the impact of floods
 
 ### Introduction
 Floods are among the most common (and most devastating) of natural disasters. In fact, [this report](https://reliefweb.int/sites/reliefweb.int/files/resources/COP21_WeatherDisastersReport_2015_FINAL.pdf) presented by the Centre for Research on the Epidemiology of Disasters concluded that between 1995 and 2015, floods accounted for nearly 43% of all natural disasters.
@@ -17,22 +17,23 @@ A **web-based application**, it is meant to be used by local authorities or resp
 1. **Prediction** Perhaps the most important feature of all, it will emphasise on analysing weather patterns to decide if there is a risk of flooding (in the region of use) in the near future. Implementing this (in the form of a deep learning / image processing model) will require access to 
    - publicly available datasets containing historical data - i.e. records of previous floods and their preceding weather conditions
    - live weather information
-   - [This](https://www.sciencedirect.com/science/article/pii/0309170888900437) research publication details a mathematical modeling system for predicting floods in India and Bangladesh
-   - Datasets that we found [here](https://catalog.data.gov/dataset/ncdc-storm-events-database), [here](https://old.datahub.io/dataset/india-weather-data), and [here](https://www.kaggle.com/rajanand/rainfall-in-india) could provide us with a starting point, and [THIS](https://www.rmsi.com/products/india-floodrisk/) product could be of great help to us too.
+   > [This](https://www.sciencedirect.com/science/article/pii/0309170888900437) research publication details a mathematical modeling system for predicting floods in India and Bangladesh
+   > Datasets that we found [here](https://catalog.data.gov/dataset/ncdc-storm-events-database), [here](https://old.datahub.io/dataset/india-weather-data), and [here](https://www.kaggle.com/rajanand/rainfall-in-india) could provide us with a starting point, and [THIS](https://www.rmsi.com/products/india-floodrisk/) product is also a helpful tool.
    
 2. **SMS Alerts** to residents of potentially vulnerable areas, informing them about the possibility of a flood, and **also detailing safe zones, or high-lying areas* that could provide shelter.**
-   - Basic analysis of altitudes / elevations feom any map would suffice here.
+   - Basic analysis of altitudes / elevations from any map would suffice here.
    
 3. **Enabling donations towards relief funds**, i.e. providing ONE link that people around the world could access to contribute towards helping victims.
-   - This could be accomplished by using a payment gatweay of some sort.
+   - This could be accomplished by using a payment gateway.
    
 4. **An _emergency_ feature** that allows those in need of urgent attention to send out a request for a pickup/evacuation. 
    - This will require the affected person to send an SMS to a fixed number, providing their details. Some form of analysis must be done to verify the authenticity of such requests and also to prioritise between multiple requests.
    
-5. **Enabling easy and cost-effective rescue operations** is highly necessary. Every helicopter-mission costs **crores** of rupees and time and money are both of the essence during floods. We plan to build a **thermal-imaging based system that can be mounted on small drones.** These drones would then scout the affected locations and pinpoint locations of humans. Rescue efforts can then be initiated depending on accessibility of victims, urgency, and density of affected people. 
+5. **Enabling easy and cost-effective rescue operations** is highly necessary. Every helicopter-mission costs **crores** of rupees and time and money are both of the essence during floods. 
+   - We plan to build a **thermal-imaging based system that can be mounted on small drones.** These drones would then scout the affected locations and pinpoint locations of humans. Rescue efforts can then be initiated depending on accessibility of victims, urgency, and density of affected people. 
 
 
-6. **Discussion forums / Broadcasts and Announcements** to facilitiate easier communication with the general public and also to provide a common medium for rescuers, victims, or families of victims to seek help communicate with others. 
+6. **Discussion forums / Broadcasts and Announcements** to facilitiate easier communication with the general public and also to provide a common medium for rescuers, victims, or families of victims to seek help or reach out to others. 
 
 
 These are the 6 main features that **Floodlights** will provide, which could, if used effectively, mitigate the impact of floods. 
