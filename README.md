@@ -17,10 +17,10 @@ A **web-based application**, it is meant to be used by local authorities or resp
 1. **Prediction** Perhaps the most important feature of all, it will emphasise on analysing weather patterns to decide if there is a risk of flooding (in the region of use) in the near future. Implementing this (in the form of a deep learning / image processing model) will require access to 
    - publicly available datasets containing historical data - i.e. records of previous floods and their preceding weather conditions
    - live weather information
-   > [This research publication](https://www.sciencedirect.com/science/article/pii/0309170888900437) details a mathematical modeling system for predicting floods in India and Bangladesh
-   > [This research publication](https://www.researchgate.net/publication/292980782_Flood_Disaster_in_India_An_Analysis_of_trend_and_Preparedness) analyses floods in India.
-   > Datasets that we found [here](https://catalog.data.gov/dataset/ncdc-storm-events-database), [here](https://old.datahub.io/dataset/india-weather-data), [here (from the recent floods in Kerala)](https://www.kaggle.com/biphili/india-s-rainfall-kerala-flood) and [here](https://www.kaggle.com/rajanand/rainfall-in-india) could provide us with a starting point.
-   > [THIS](https://www.rmsi.com/products/india-floodrisk/) product is also a helpful tool.
+   - [This research publication](https://www.sciencedirect.com/science/article/pii/0309170888900437) details a mathematical modeling system for predicting floods in India and Bangladesh
+   - [This research publication](https://www.researchgate.net/publication/292980782_Flood_Disaster_in_India_An_Analysis_of_trend_and_Preparedness) analyses floods in India.
+   - Datasets that we found [here](https://catalog.data.gov/dataset/ncdc-storm-events-database), [here](https://old.datahub.io/dataset/india-weather-data), [here (from the recent floods in Kerala)](https://www.kaggle.com/biphili/india-s-rainfall-kerala-flood) and [here](https://www.kaggle.com/rajanand/rainfall-in-india) could provide us with a starting point.
+   - [THIS](https://www.rmsi.com/products/india-floodrisk/) product is also a helpful tool.
    
 2. **SMS Alerts** to residents of potentially vulnerable areas, informing them about the possibility of a flood, and **also detailing safe zones, or high-lying areas* that could provide shelter.**
    - Basic analysis of altitudes / elevations from any map would suffice here.
